@@ -1,6 +1,6 @@
 nav{
     display: flex;
-    align-items: end;
+    align-items: centera;
     border-bottom: 1px solid black;
     width: 100%;
     justify-content: space-between;
@@ -12,9 +12,9 @@ nav{
     margin-bottom: 10px;
 }
 #getstarted{
-    background-color: orange;
-    border: 5px solid orange;
-    border-radius: 25%;
+    background-color: rgb(243,119, 4);
+    border: 10px solid rgb(243, 119, 4);
+    border-radius: 15%;
 }
 
 .area1{
