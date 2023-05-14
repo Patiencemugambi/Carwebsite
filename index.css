@@ -16,21 +16,25 @@ nav{
     border: 10px solid rgb(243, 119, 4);
     border-radius: 15%;
 }
+.image1{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 30%;
+}
 
 .area1{
     display: flex;
     margin-left: 70px;
-}
-.area1 img{
-    border: 2px solid rgb(199, 189, 189);
 }
 .area01{
     width: 40%;
 }
 
 .area1 img{
-    width: 30%;
+    width: 80%;
     margin-left: 70px;
+    position: relative;
+    z-index: 10;
+    left: -50;
 }
 nav ul{
     display: flex;
@@ -101,19 +105,7 @@ nav li{
 .clientreviews ul{
     display: flex;
 }
-.rocarstorapp{
-    display: flex;
-    flex-direction: column;
-}
-.rocarstorapp img:first-child{
-    margin-bottom: 10px;
-}
-.rocarstorapp img:last-child{
-    margin-left: 20px;
-}
-.rocarstorapp img{
-    width: 30%;
-}
+
 
 .arealast{
     display: flex;
@@ -122,4 +114,22 @@ nav li{
     justify-content: space-between;
     flex-basis: calc(25%);
 
+}
+.rocarstorapp{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.roc1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appimg{
+    display: flex;
+    justify-content: space-between;
+}
+#name{
+    border: 1px solid orange;
 }
