@@ -40,6 +40,7 @@ nav{
 }
 .image1{
     width: 60%;
+    height: 50%;
     
 }
 .image1 img{
@@ -53,7 +54,6 @@ nav{
 .area01{
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 }
 
 .area1{
@@ -62,13 +62,9 @@ nav{
     width: 70%;
     margin-left: 70px;
 }
-.image1{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-
-}
 .image-container{
     width: 70%;
-    height: 70%;
+    height: 20%;
     background-color:rgba(225, 68, 0, 0.87);
     /*display: flex;
       align-items: center;
@@ -199,21 +195,40 @@ nav li{
     flex-basis: calc(25%);
 
 }
-.rocarstorapp{
-    background-color: aquamarine;
+
+.download-section{
+	background-color: blanchedalmond;
+	height: 15rem;
+	margin-top: 5rem;
+}
+.download-container{
     display: flex;
-    justify-content: center;
-    
+	position: relative;
+	left: 25%;
+	max-width: 800px;
+  	width: 100%;
+}
+.download-details{
+width: 50%;
 }
 
-.roc1{
-    display: flex;
-    justify-content: space-between;
+.store-images{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
 }
-
-.appimg{
-    display: flex;
-    justify-content: space-between;
+.appstore{
+	width: 50%;
+}
+.playstore{
+	width: 50%;
+	height: 50%;
+}
+.phone img{
+	position: relative;
+	z-index: 10;
+	top: -120px;
 }
 #name{
     border: 3px solid rgba(225, 68, 0, 0.87);
