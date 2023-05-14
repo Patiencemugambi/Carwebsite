@@ -50,13 +50,51 @@ nav{
     z-index: 10;
     left: -50;
 }
+.area01{
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
 
 .area1{
     display: flex;
+    justify-content: space-between;
+    width: 70%;
     margin-left: 70px;
 }
-.area01{
-    width: 50%;
+.image1{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+.image-container{
+    width: 70%;
+    height: 70%;
+    background-color:rgba(225, 68, 0, 0.87);
+    /*display: flex;
+      align-items: center;
+      justify-content: center;*/
+}
+.image-container img {
+    position: relative;
+    left: -120px; 
+    top: -10px; 
+}
+.buy, .rent{
+    padding: .5rem;
+    border-radius: 8px;
+    width: 8rem;
+    margin-top: 1rem;
+}.buy{
+    border: none;
+    background-color:rgba(225, 68, 0, 0.87) ;
+}
+.rent{
+    background: none;
+    border: 1px solid rgba(225, 68, 0, 0.87);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul{
@@ -108,6 +146,11 @@ nav li{
 .rect1{
     display: flex;
     list-style: none;
+    
+}
+.rect1 img h3{
+    display: flex;
+
 }
 .rect2{
     display: flex;
