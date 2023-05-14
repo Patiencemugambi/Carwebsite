@@ -5,6 +5,7 @@ nav{
     width: 100%;
     justify-content: space-between;
     flex-basis: calc(33.33%);
+    font-weight: 550;
 
 }
 .title{
@@ -38,8 +39,15 @@ nav{
     height: 100%;
 }
 .image1{
+    width: 100%;
+}
+.image1 img{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    width: 30%;
+    width: 50%;
+    margin-left: 70px;
+    position: relative;
+    z-index: 10;
+    left: -50;
 }
 
 .area1{
@@ -47,16 +55,9 @@ nav{
     margin-left: 70px;
 }
 .area01{
-    width: 40%;
+    width: 50%;
 }
 
-.area1 img{
-    width: 80%;
-    margin-left: 70px;
-    position: relative;
-    z-index: 10;
-    left: -50;
-}
 nav ul{
     display: flex;
     list-style: none;
@@ -82,11 +83,17 @@ nav li{
 .carbuttons{
     justify-content: space-between;
 }
-.carbuttons button{
+#mercedes button{
     background-color: darkorange;
-    border: 6px solid darkorange;
+    border: 2px solid darkorange;
+}
+.carbuttons button{
+  background-color: white;
+    border: 1px solid darkorange;  
     border-radius: 10%;
-    margin-left: 40px;
+    margin-left: 35px;
+    height: 35px;
+    padding: 10px;
 }
 .topratedcars ul{
     display: flex;
