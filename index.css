@@ -11,18 +11,22 @@ nav{
     margin-left: 70px;
     margin-bottom: 10px;
 }
+#getstarted{
+    background-color: orange;
+    border: 5px solid orange;
+    border-radius: 25%;
+}
 
 .area1{
     display: flex;
     margin-left: 70px;
 }
 .area01{
-    width: 70%;
+    width: 40%;
 }
 
 .area1 img{
-    border-radius: 30%;
-    width: 50%;
+    width: 30%;
     margin-left: 70px;
 }
 nav ul{
@@ -52,6 +56,9 @@ nav li{
     list-style: none;
     width: 100%;
     
+}
+.topratedcars img{
+    width: 70%;
 }
 .rect1{
     display: flex;
@@ -91,6 +98,20 @@ nav li{
 .clientreviews ul{
     display: flex;
 }
+.rocarstorapp{
+    display: flex;
+    flex-direction: column;
+}
+.rocarstorapp img:first-child{
+    margin-bottom: 10px;
+}
+.rocarstorapp img:last-child{
+    margin-left: 20px;
+}
+.rocarstorapp img{
+    width: 30%;
+}
+
 .arealast{
     display: flex;
     align-items: top;
