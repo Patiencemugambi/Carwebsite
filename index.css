@@ -61,20 +61,27 @@ nav li{
     display: flex;
     list-style: none;
 }
+.clientreviews ul{
+    display: flex;
+    list-style: none;
+}
 
 .clientreviews{
     display: flex;
-    flex-wrap: wrap;
+    margin: none;
 }
 .clientreviews li{
     flex-basis: 100%;
     flex-basis: calc(33.33% - 20px);
     margin-bottom: 20px;
-
+  text-align: center;
 }
 .clientreviews img{
-    width: 100%;
+    width: 70%;
     height: auto;    
+}
+.clientreviews p{
+    width: 70%;
 }
 .clientreviews li strong{
     display: block;
