@@ -16,11 +16,11 @@ nav{
     display: flex;
     margin-left: 70px;
 }
-.areao1{
+.area01{
     width: 70%;
 }
 
-img{
+.area1 img{
     border-radius: 30%;
     width: 50%;
     margin-left: 70px;
@@ -46,6 +46,20 @@ nav li{
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 70px;
+}
+.topratedcars ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    
+}
+.rect1{
+    display: flex;
+    list-style: none;
+}
+.rect2{
+    display: flex;
+    list-style: none;
 }
 
 .clientreviews{
