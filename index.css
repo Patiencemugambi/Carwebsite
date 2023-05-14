@@ -11,10 +11,27 @@ nav{
     margin-left: 70px;
     margin-bottom: 10px;
 }
-#getstarted{
-    background-color: rgb(243,119, 4);
-    border: 10px solid rgb(243, 119, 4);
-    border-radius: 15%;
+.buttons2{
+    display: flex;
+    
+}
+
+#getstarted button{
+    background-color: darkorange;
+    border: 6px solid darkorange;
+    border-radius: 8%;
+}
+#buy button{
+    background-color: darkorange;
+    border: 6px solid darkorange;
+    border-radius: 8%;
+    margin-right: 20px;
+}
+#rent button{
+    background-color: white;
+    border: 3px solid darkorange;
+    border-radius: 8%;
+    color: darkorange;
 }
 .image1{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
