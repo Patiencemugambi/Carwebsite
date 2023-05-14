@@ -148,5 +148,12 @@ nav li{
     justify-content: space-between;
 }
 #name{
-    border: 1px solid orange;
+    border: 3px solid orange;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.submit button{
+    background-color: darkorange;
+    border: 6px solid darkorange;
+    border-radius: 10%;
 }
