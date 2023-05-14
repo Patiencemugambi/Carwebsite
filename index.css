@@ -26,12 +26,16 @@ nav{
     border: 6px solid darkorange;
     border-radius: 8%;
     margin-right: 20px;
+    height: 100%;
+
 }
 #rent button{
     background-color: white;
-    border: 3px solid darkorange;
+    border: 1px solid darkorange;
     border-radius: 8%;
     color: darkorange;
+    width: 100%;
+    height: 100%;
 }
 .image1{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -74,6 +78,15 @@ nav li{
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 70px;
+}
+.carbuttons{
+    justify-content: space-between;
+}
+.carbuttons button{
+    background-color: darkorange;
+    border: 6px solid darkorange;
+    border-radius: 10%;
+    margin-left: 40px;
 }
 .topratedcars ul{
     display: flex;
