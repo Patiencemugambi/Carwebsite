@@ -165,7 +165,7 @@ nav li{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow:;
+    box-shadow: 3px 4px 5px rgba(204, 199, 197, 0.87);
     background-color: transparent;
 }
 #two ul li:first-child button{
@@ -176,10 +176,27 @@ nav li{
     margin: 0 10px; 
     padding: 20px;
 }
+#two ul{
+    display: flex;
+    list-style: none;
+}
 .car1{ 
-    border: 1px solid #ccc;
+    border: 1px solid #ebe2e2;
     padding: 20px;
     margin: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px; 
+    margin: 30px;
+}
+button{
+    background-color: rgba(225, 68, 0, 0.87);
+    border:none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer; 
 }
 
 /* .carbuttons{
@@ -249,9 +266,7 @@ nav li{
 }
 .clientreviews p{
     width: 70%;
-        justify-content: space-between;
-
-
+    justify-content: space-between;
 }
 .clientreviews li strong{
     display: block;
@@ -273,9 +288,12 @@ nav li{
 }
 
 .download-sectioncard{
+    box-shadow: 4px 4px 5px rgba(204, 199, 197, 0.87);
 	background-color: blanchedalmond;
 	height: 15rem;
 	margin-top: 5rem;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .download-container{
     display: flex;
@@ -298,7 +316,7 @@ width: 50%;
     position: relative;
     z-index: 10;
     top: -120px;
-    transform: scale(0.8);
+    transform: scale(0.8);  
 }
 .appstore{
 	width: 50%;
@@ -306,11 +324,6 @@ width: 50%;
 .playstore{
 	width: 50%;
 	height: 50%;
-}
-.phone img{
-	position: relative;
-	z-index: 10;
-	top: -120px;
 }
 #name{
     border: 3px solid rgba(225, 68, 0, 0.87);
