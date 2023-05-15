@@ -163,12 +163,12 @@ nav li{
     border-radius: 5px;
 }
 .one{
-
     justify-content: space-between;
 }
 .types{
     width:120px;
     height:35px;
+    
     gap:10px;
     display:flex;
     justify-content: space-around;
@@ -352,7 +352,7 @@ width: 50%;
     border: 6px solid rgba(225, 68, 0, 0.87);
     border-radius: 10%;
 }
-.carr{
+/* .carr{
     float: right;
     padding-bottom: 50px;
-}
+} */
