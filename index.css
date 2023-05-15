@@ -163,7 +163,7 @@ nav li{
     border-radius: 5px;
 }
 .one{
-    display:flex;
+
     justify-content: space-between;
 }
 .types{
@@ -200,9 +200,7 @@ nav li{
     box-shadow: 3px 4px 5px rgba(204, 199, 197, 0.87);
 
 }
-.carr{
-    
-}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -353,4 +351,8 @@ width: 50%;
     background-color: rgba(225, 68, 0, 0.87);
     border: 6px solid rgba(225, 68, 0, 0.87);
     border-radius: 10%;
+}
+.carr{
+    float: right;
+    padding-bottom: 50px;
 }
