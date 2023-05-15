@@ -2,10 +2,11 @@ nav{
     display: flex;
     align-items: centera;
     border-bottom: 1px solid black;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     flex-basis: calc(33.33%);
     font-weight: 550;
+    padding: 5px 5px;
 
 }
 .title{
@@ -17,12 +18,18 @@ nav{
     
 }
 
-#getstarted button{
+#getstarted{
     background: rgba(225, 68, 0, 0.87);
     border: none;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
     border-radius: 5px;
 }
+
+nav ul li:hover{
+    background-color: rgba(225, 68, 0, 0.87);
+    border-radius: 5px;
+}
+
 /* #buy button{
     background-color: rgba(225, 68, 0, 0.87);
     border: 6px solid rgba(225, 68, 0, 0.87);
@@ -122,6 +129,7 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
+    /* padding: 5px 5px; */
 
 }
 nav li{
@@ -149,10 +157,10 @@ nav li{
 }
 .button-rent{
     color:rgba(225, 68, 0, 0.87);
-    border:2px rgba(225, 68, 0, 0.87);
+    border:2px solid rgba(225, 68, 0, 0.87);
     background: none;
     padding:10px 15px;
-    border-radius:5px;
+    border-radius: 5px;
 }
 .one{
     display:flex;
@@ -167,14 +175,19 @@ nav li{
     align-items: center;
     box-shadow: 3px 4px 5px rgba(204, 199, 197, 0.87);
     background-color: transparent;
+    border-radius: 5px;
 }
 #two ul li:first-child button{
     background-color: rgba(225, 68, 0, 0.87);
     border:none;
 }
+/* .people1 p{
+    display: flex;
+} */
 #two li {
     margin: 0 10px; 
     padding: 20px;
+
 }
 #two ul{
     display: flex;
@@ -184,6 +197,11 @@ nav li{
     border: 1px solid #ebe2e2;
     padding: 20px;
     margin: 30px;
+    box-shadow: 3px 4px 5px rgba(204, 199, 197, 0.87);
+
+}
+.carr{
+    
 }
 .container{
     display: flex;
@@ -191,6 +209,7 @@ nav li{
     gap: 50px; 
     margin: 30px;
 }
+
 button{
     background-color: rgba(225, 68, 0, 0.87);
     border:none;
