@@ -65,7 +65,7 @@ nav{
 .body1{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: end;
 	padding: 20px;
 	min-height: 100vh;
 }
@@ -138,7 +138,7 @@ nav li{
     margin-left: 20px;
     margin-right: 70px;
 }
-.carbuttons{
+/* .carbuttons{
     justify-content: space-between;
 }
 #mercedes button{
@@ -165,7 +165,16 @@ nav li{
 .rect1{
     display: flex;
     list-style: none;
+    justify-content: space-around;
     
+}
+.rect01{
+    display: flex;
+    justify-content: space-around;
+}
+.rect011{
+    display: flex;
+    justify-content: space-around;
 }
 .rect1 img h3{
     display: flex;
@@ -174,7 +183,7 @@ nav li{
 .rect2{
     display: flex;
     list-style: none;
-}
+} */
 .clientreviews ul{
     display: flex;
     list-style: none;
