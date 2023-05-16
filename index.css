@@ -157,25 +157,43 @@ nav li{
 }
 .button-rent{
     color:rgba(225, 68, 0, 0.87);
-    border:2px solid rgba(225, 68, 0, 0.87);
+    border:1px solid rgba(225, 68, 0, 0.87);
     background: none;
     padding:10px 15px;
     border-radius: 5px;
 }
 .one{
     justify-content: space-between;
+    display: flex;
+
+}
+.carrimage{
+    margin-right: 20%;
+    /* justify-content: right; */
+    position: relative;
+    display: inline-block;
+    box-shadow: 3px 2px 2px 3px rgba(204, 199, 197, 0.87);
+
+
+}
+.carr{
+    /* box-shadow: 5px 5px 5px 5px rgba(204, 199, 197, 0.87); */
+    margin-left: -80px;
+
 }
 .types{
     width:120px;
     height:35px;
-    
+
     gap:10px;
     display:flex;
     justify-content: space-around;
     align-items: center;
     box-shadow: 3px 4px 5px rgba(204, 199, 197, 0.87);
     background-color: transparent;
-    border-radius: 5px;
+    border-radius: 5px ;
+    border: 1px solid rgba(225, 68, 0, 0.87) ;
+
 }
 #two ul li:first-child button{
     background-color: rgba(225, 68, 0, 0.87);
@@ -206,6 +224,9 @@ nav li{
     flex-direction: row;
     gap: 50px; 
     margin: 30px;
+}
+.container button{
+    border-radius: 5px;
 }
 
 button{
@@ -343,14 +364,15 @@ width: 50%;
 	height: 50%;
 }
 #name{
-    border: 3px solid rgba(225, 68, 0, 0.87);
+    border: 2px solid rgba(225, 68, 0, 0.87);
     margin-bottom: 10px;
     height: 30px;
 }
 .submit button{
-    background-color: rgba(225, 68, 0, 0.87);
-    border: 6px solid rgba(225, 68, 0, 0.87);
-    border-radius: 10%;
+    background: rgba(225, 68, 0, 0.87);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
 }
 /* .carr{
     float: right;
